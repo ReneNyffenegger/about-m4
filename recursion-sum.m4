@@ -1,0 +1,9 @@
+define(sum,
+  `ifelse($#,1,
+    $1,
+   `eval($1+sum(shift($@)))')')dnl
+dnl
+sum(15)
+sum(15,5)
+sum(15,5,7)
+sum(15,5,7,3)
