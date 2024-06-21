@@ -3,7 +3,7 @@ dnl   https://lists.gnu.org/archive/html/m4-discuss/2024-06/msg00000.html
 dnl
 define(show_arguments,
 `arg-1 = $1
-arg-2 = $2')
+arg-2 = $2')dnl
 -------------------------
 starting
 divert(1)DIVERS START
